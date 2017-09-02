@@ -13,6 +13,11 @@
 	</properties>
 	<dependencies>
 
+		<dependency>
+			<groupId>net.rbv</groupId>
+			<artifactId>ecomback</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 		<!-- SPRING-WEBMVC -->
 		<dependency>
 			<groupId>org.springframework</groupId>
