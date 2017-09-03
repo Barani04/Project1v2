@@ -15,7 +15,7 @@
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li id="about"><a href="${contextRoot}/about">About</a></li>
-					<li id="productslist"><a href="${contextRoot}/protuctslist">View Products</a></li>
+					<li id="productslist"><a href="${contextRoot}/show/all/products">View Products</a></li>
 					<li id="contact"><a href="${contextRoot}/contact">Contact</a></li>
 				</ul>
 			</div>

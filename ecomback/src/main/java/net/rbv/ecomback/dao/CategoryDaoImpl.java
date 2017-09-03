@@ -45,4 +45,15 @@ public class CategoryDaoImpl implements CategoryDao {
 		return categories;
 	}
 
+	@Override
+	public Category getById(int id) {
+		
+		//Enhanced for loop for getting single category
+		for(Category category : categories){
+			if(category.getCatId() == id)
+				return category;
+		}
+		return null;
+	}
+
 }

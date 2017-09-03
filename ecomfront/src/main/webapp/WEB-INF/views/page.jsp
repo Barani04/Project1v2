@@ -23,7 +23,7 @@
 <!-- Bootstrap Core CSS -->
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 <!-- Bootstrap Lumen theme CSS -->
-<link href="${css}/bootstrap-lumen-theme.min.css" rel="stylesheet">
+<link href="${css}/bootstrap-spacelab-theme.min.css" rel="stylesheet">
 <!-- Custom CSS -->
 <link href="${css}/custom.css" rel="stylesheet">
 </head>
@@ -45,6 +45,11 @@
 		<c:if test="${userClickedContact == true }">
 			<%@include file="contact.jsp" %>	
 		</c:if>	
+		
+		<c:if test="${userClickedAllProducts == true  or userClickedCategoryProducts == true  }">
+			<%@include file="productList.jsp" %>	
+		</c:if>	
+		
 	</div>
 			<!-- Footer -->
 		<%@include file="common/footer.jsp" %>
